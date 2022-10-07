@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    line-height: 1.1em;
+    list-style: none;
+    color: #fff;
+    border: none;
+}
+
+body{
+    background: url(./assets/bg.png);
+    background-size: cover;
+}
+
+/* -------------navbar----------- */
+
+.navbar{
+    background-color: #000;
+    height: 15vh;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+    margin: 1% 1%;
+}
+
+.line{ 
+    margin: 0.7% 0 0 20%;
+    position: absolute;
+    height: 10vh;
+    border-right: 2px solid #f7f7f7a8;
+}
+
+.grow-list{
+    margin-top: 2%;
+    position: relative;
+    margin-left: 20em;
+}
+
+.list-item{
+    float: left;
+    padding-left:3%;
+}
+
+.button-small{
+    border-radius: 10px;
+    background-color: #ba0cc5;
+    bottom: 10px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 10%;
+    display: block;
+    padding: 0.9em 2em;
+}
+/* ---------Hero------------ */
+.hero{
+    height: 80vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.hero-heading{
+    font-size: 70px;
+    padding-left:20%;
+    padding-right: 20%;
+}
+
+.hero-description{
+    margin-top: 3%;
+    font-size: 22px;
+}
+
+.button-large{
+    margin-top: 3%;
+    padding: 1em 2em;
+    background-color: #ba0cc5;
+    font-size: 24px;
+    border-radius: 10px;
+}
